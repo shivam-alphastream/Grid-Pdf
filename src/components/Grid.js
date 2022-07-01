@@ -18,7 +18,7 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Gridd from "@mui/material/Grid";
-
+import "../index.css"
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
   ...theme.typography.body2,
@@ -34,7 +34,9 @@ ModuleRegistry.registerModules([
 ]);
 var Val;
 export default function Grid() {
+  var fileDownload = require('react-file-download');
   const containerRef = useRef(null);
+  const gridRef = useRef(null);
   const [Instance, setInstance] = React.useState(null);
   const columnDefs = useMemo(
     () => [
@@ -68,39 +70,11 @@ export default function Grid() {
     }),
     []
   );
-
-  // const getSelectedRowData = (params) => {
-  //   let gridApi = params.api;
-  //   let selectedNodes = gridApi.getSelectedNodes();
-  //   let selectedData = selectedNodes.map(node => node.data);
-  //   alert(`Selected Nodes:\n${JSON.stringify(selectedData)}`);
-  //   return selectedData;
-  // };
-
-
-  // const printNode = (node, index) => {
-  //   console.log("TEST");
-  //     console.log(
-  //       index + ' -> data: ' + node.data.name + ', ' + node.data.facts[10].v
-  //     );
-  // };
-
-
-  // const onBtForEachNode = useCallback(() => {
-  //   console.log('### api.forEachNode() ###');
-  //   containerRef.current.api.forEachNode(console.log("TEST"));
-  // }, []);
-
-
   const [rowData, setRowData] = useState();
-  // useEffect(() => {
-  //   fetch("download (19).json")
-  //     .then((resp) => resp.json())
-  //     .then((rowData) => setRowData(rowData["data"]["lineItmes"]));
-  // }, []);
   useEffect(() => { 
     //pdf
     const container = containerRef.current;
+    PSPDFKit.unload(container)
     PSPDFKit.load({
       container,
       document: `http://webapp.factstream.ai/web/15190/2021/15190_2021FY_AR_IR_PDF.pdf`,
@@ -142,34 +116,39 @@ export default function Grid() {
       const [createdAnnotation] = Instance.create(annotation);
     }
   };
-
-
   const onGridReady = useCallback((params) => {
       fetch("download (19).json")
       .then((resp) => resp.json())
       .then((rowData) => setRowData(rowData["data"]["lineItmes"]));
-
   }, []);
-
-  const onBtExport = useCallback(() => {
-    containerRef.current.api.exportDataAsExcel();
-  }, []);
-
+  const onBtExport = ()=> {
+    const existCols = [];
+    const cols = gridRef.current.api.getColumnDefs();
+    console.log(cols)
+    const tempAsReportedData = [];
+    gridRef.current.api.forEachNode(function (node) {
+      console.log(node)
+      tempAsReportedData.push(node.data);
+    });
+    console.log("HELLO "+JSON.stringify({
+      requestToken: '',
+      data: rowData,
+    })
+    );
+    fileDownload(JSON.stringify({
+      requestToken: '',
+      data: rowData,
+    }), 'download.json');
+  }
   return (
     <>
       <div>
-          {/* <button 
-          onClick={getSelectedRowData}
-          style={{margin: 10}}
-          >Get Selected Nodes</button> */}
           <button
-            onClick={onBtExport}
-            style={{ marginBottom: '5px', fontWeight: 'bold' }}
-          >
-            Export to Excel
+             onClick={onBtExport}
+            style={{ marginBottom: '5px', fontWeight: 'bold' }}>
+            Export to JSON
           </button>
       </div>
-      {/* <button onClick={onBtForEachNode}>For-Each Node</button> */}
       <Box sx={{ flexGrow: 1 }}>
         <Gridd container spacing={2}>
           <Gridd item xs={6}>
@@ -177,7 +156,7 @@ export default function Grid() {
               {" "}
               <div style={{ height: "850px" }}>
                 <AgGridReact
-                  ref={containerRef}
+                  ref={gridRef}
                   className="ag-theme-alpine"
                   animateRows="true"
                   columnDefs={columnDefs}

@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#csvResult {
+  height: 100%;
+  width: 47%;
+  margin-left: 5%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1em;
+}
