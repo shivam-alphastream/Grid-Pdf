@@ -1,0 +1,1554 @@
+{
+    "requestToken": "string",
+    "data": {
+        "TName": "",
+        "sectionTag": "",
+        "deletedRows": [],
+        "deletedColumns": [],
+        "revision": 0,
+        "id": 10027080,
+        "c": "USD",
+        "q": "Million",
+        "rv": 0,
+        "rvn": "janardhan",
+        "periods": [
+            {
+                "cId": 0,
+                "period": "Tag"
+            }, {
+                "cId": 10,
+                "period": "FY21"
+            }, {
+                "cId": 20,
+                "period": "FY20"
+            }
+        ],
+        "lineItmes": [
+            {
+                "id": 1018,
+                "name": "Total liabilities",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [
+                    {
+                        "id": 14460,
+                        "name": "OtherLiabilitiesNoncurrent"
+                    },
+                    {
+                        "id": 12030,
+                        "name": "LiabilitiesOtherThanLongtermDebtNoncurrent"
+                    },
+                    {
+                        "id": 12020,
+                        "name": "LiabilitiesNoncurrent"
+                    },
+                    {
+                        "id": 11999,
+                        "name": "Liabilities"
+                    }, {
+                        "id": 3127,
+                        "name": "AccountsPayableAndOtherAccruedLiabilitiesCurrent"
+                    }, {
+                        "id": 12026,
+                        "name": "LiabilitiesOfDisposalGroupIncludingDiscontinuedOperationCurrent"
+                    }, {
+                        "id": 3754,
+                        "name": "AssetRetirementObligationCurrent"
+                    }, {
+                        "id": 12004,
+                        "name": "LiabilitiesCurrent"
+                    }
+                ],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "1,362,503.8",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11700,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [297.3, 461.2, 354.3, 475.1]
+                        }
+                    },
+                    "20": {
+                        "v": "1,323,041.2",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11702,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [439.1, 461.7, 496.1, 475.1]
+                        }
+                    }
+                },
+                "filePath": [
+                    1010, 1018
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            },
+            {
+                "id": 1019,
+                "name": "Equity",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [
+                    {
+                        "id": 18808,
+                        "name": "StatementLineItems"
+                    },
+                    {
+                        "id": 8256,
+                        "name": "EquitySecuritiesFvNi"
+                    },
+                    {
+                        "id": 12743,
+                        "name": "LongTermInvestmentsAndReceivablesNetAbstract"
+                    },
+                    {
+                        "id": 12002,
+                        "name": "LiabilitiesAndStockholdersEquityAbstract"
+                    }, {
+                        "id": 13196,
+                        "name": "MinorityInterest"
+                    }, {
+                        "id": 14771,
+                        "name": "PartnersCapital"
+                    }, {
+                        "id": 13145,
+                        "name": "MembersEquityAbstract"
+                    }, {
+                        "id": 18862,
+                        "name": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+                    }, {
+                        "id": 14772,
+                        "name": "PartnersCapitalAbstract"
+                    }, {
+                        "id": 18863,
+                        "name": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterestAbstract"
+                    }, {
+                        "id": 18858,
+                        "name": "StockholdersEquityAbstract"
+                    }, {
+                        "id": 18857,
+                        "name": "StockholdersEquity"
+                    }, {
+                        "id": 14815,
+                        "name": "PartnersCapitalIncludingPortionAttributableToNoncontrollingInterestAbstract"
+                    }, {
+                        "id": 14814,
+                        "name": "PartnersCapitalIncludingPortionAttributableToNoncontrollingInterest"
+                    }, {
+                        "id": 12335,
+                        "name": "LimitedLiabilityCompanyLLCMembersEquityIncludingPortionAttributableToNoncontrollingInterestAbstract"
+                    }
+                ],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11704,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [-1.0, -1.0, -1.0, -1.0]
+                        }
+                    },
+                    "20": {
+                        "v": "",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11706,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [-1.0, -1.0, -1.0, -1.0]
+                        }
+                    }
+                },
+                "filePath": [1019],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            },
+            {
+                "id": 1017,
+                "name": "Other liabilities",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [
+                    {
+                        "id": 7172,
+                        "name": "DerivativeLiabilitiesNoncurrent"
+                    },
+                    {
+                        "id": 6285,
+                        "name": "DeferredIncomeTaxLiabilitiesNet"
+                    },
+                    {
+                        "id": 3242,
+                        "name": "AccruedEnvironmentalLossContingenciesNoncurrent"
+                    },
+                    {
+                        "id": 17048,
+                        "name": "RestructuringReserveNoncurrent"
+                    }, {
+                        "id": 18189,
+                        "name": "SelfInsuranceReserveNoncurrent"
+                    }, {
+                        "id": 14460,
+                        "name": "OtherLiabilitiesNoncurrent"
+                    }, {
+                        "id": 4262,
+                        "name": "BusinessCombinationContingentConsiderationLiabilityNoncurrent"
+                    }, {
+                        "id": 12030,
+                        "name": "LiabilitiesOtherThanLongtermDebtNoncurrent"
+                    }, {
+                        "id": 12020,
+                        "name": "LiabilitiesNoncurrent"
+                    }, {
+                        "id": 11999,
+                        "name": "Liabilities"
+                    }, {
+                        "id": 3127,
+                        "name": "AccountsPayableAndOtherAccruedLiabilitiesCurrent"
+                    }, {
+                        "id": 5396,
+                        "name": "ContractWithCustomerLiabilityCurrent"
+                    }, {
+                        "id": 14454,
+                        "name": "OtherLiabilitiesCurrent"
+                    }, {
+                        "id": 6587,
+                        "name": "DefinedBenefitPensionPlanLiabilitiesNoncurrent"
+                    }, {
+                        "id": 9064,
+                        "name": "FinanceLeaseLiabilityNoncurrent"
+                    }, {
+                        "id": 13945,
+                        "name": "OperatingLeaseLiabilityCurrent"
+                    }, {
+                        "id": 13947,
+                        "name": "OperatingLeaseLiabilityNoncurrent"
+                    }, {
+                        "id": 7171,
+                        "name": "DerivativeLiabilitiesCurrent"
+                    }, {
+                        "id": 4258,
+                        "name": "BusinessCombinationContingentConsiderationLiabilityCurrent"
+                    }, {
+                        "id": 12021,
+                        "name": "LiabilitiesNoncurrentAbstract"
+                    }, {
+                        "id": 14471,
+                        "name": "OtherLongTermDebtNoncurrent"
+                    }, {
+                        "id": 12031,
+                        "name": "LiabilitiesOtherThanLongTermDebtNoncurrentAbstract"
+                    }, {
+                        "id": 5399,
+                        "name": "ContractWithCustomerLiabilityNoncurrent"
+                    }, {
+                        "id": 15124,
+                        "name": "PensionAndOtherPostretirementDefinedBenefitPlansLiabilitiesNoncurrent"
+                    }, {
+                        "id": 6349,
+                        "name": "DeferredRentCreditNoncurrent"
+                    }
+                ],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "116,878.8",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11696,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [306.4, 430.3, 354.3, 444.1]
+                        }
+                    },
+                    "20": {
+                        "v": "114,250.8",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11698,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [448.1, 430.7, 496.0, 444.1]
+                        }
+                    }
+                },
+                "filePath": [
+                    1010, 1017
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            },
+            {
+                "id": 1016,
+                "name": "Bonds issued",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "367,806.7",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11692,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [306.4, 416.3, 354.3, 430.1]
+                        }
+                    },
+                    "20": {
+                        "v": "355,777.5",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11694,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [448.1, 416.7, 496.0, 430.1]
+                        }
+                    }
+                },
+                "filePath": [
+                    1010, 1016
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1014,
+                "name": "Borrowings",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [
+                    {
+                        "id": 18680,
+                        "name": "ShortTermBorrowings"
+                    },
+                    {
+                        "id": 14600,
+                        "name": "OtherShortTermBorrowings"
+                    },
+                    {
+                        "id": 14601,
+                        "name": "OtherShortTermInvestments"
+                    },
+                    {
+                        "id": 12431,
+                        "name": "LinesOfCreditCurrent"
+                    }, {
+                        "id": 12691,
+                        "name": "LongTermDebtCurrent"
+                    }, {
+                        "id": 7842,
+                        "name": "DueToRelatedPartiesCurrent"
+                    }, {
+                        "id": 12744,
+                        "name": "LongTermLineOfCredit"
+                    }, {
+                        "id": 12723,
+                        "name": "LongTermDebtNoncurrent"
+                    }
+                ],
+                "c": "-",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "555,079.1",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11684,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [306.4, 388.2, 354.3, 402.1]
+                        }
+                    },
+                    "20": {
+                        "v": "42.1",
+                        "p": "FY20",
+                        "c": "-",
+                        "q": "P",
+                        "cid": 20,
+                        "id": 11687,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [546.1, 388.7, 566.9, 402.1]
+                        }
+                    }
+                },
+                "filePath": [
+                    1010, 1014
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1015,
+                "name": "Accounts payable",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [
+                    {
+                        "id": 3771,
+                        "name": "Assets"
+                    },
+                    {
+                        "id": 3128,
+                        "name": "AccountsPayableCurrent"
+                    },
+                    {
+                        "id": 3256,
+                        "name": "AccruedLiabilitiesCurrent"
+                    },
+                    {
+                        "id": 3127,
+                        "name": "AccountsPayableAndOtherAccruedLiabilitiesCurrent"
+                    }, {
+                        "id": 3116,
+                        "name": "AccountsPayableAndAccruedLiabilitiesCurrent"
+                    }, {
+                        "id": 9061,
+                        "name": "FinanceLeaseLiabilityCurrent"
+                    }, {
+                        "id": 7842,
+                        "name": "DueToRelatedPartiesCurrent"
+                    }, {
+                        "id": 3124,
+                        "name": "AccountsPayableAndAccruedLiabilitiesNoncurrent"
+                    }
+                ],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "5,389.5",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11688,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [318.4, 402.3, 354.3, 416.1]
+                        }
+                    },
+                    "20": {
+                        "v": "4,886.7",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11690,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [460.1, 402.7, 496.0, 416.1]
+                        }
+                    }
+                },
+                "filePath": [
+                    1010, 1015
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1013,
+                "name": "Due to customers",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "298,748.1",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11680,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [306.4, 374.2, 354.3, 388.1]
+                        }
+                    },
+                    "20": {
+                        "v": "273,644.2",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11682,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [448.2, 374.7, 496.0, 388.1]
+                        }
+                    }
+                },
+                "filePath": [
+                    1010, 1013
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1011,
+                "name": "Borrowings from the central bank",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "996.0",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11672,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [327.5, 346.2, 354.3, 360.1]
+                        }
+                    },
+                    "20": {
+                        "v": "986.1",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11674,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [469.3, 346.7, 496.1, 360.1]
+                        }
+                    }
+                },
+                "filePath": [
+                    1010, 1011
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1012,
+                "name": "Accounts payable to brokerage clients",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "17,605.6",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11676,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [312.4, 360.2, 354.3, 374.1]
+                        }
+                    },
+                    "20": {
+                        "v": "16,583.8",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11678,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [454.1, 360.7, 496.0, 374.1]
+                        }
+                    }
+                },
+                "filePath": [
+                    1010, 1012
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1010,
+                "name": "Liabilities",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [
+                    {
+                        "id": 6285,
+                        "name": "DeferredIncomeTaxLiabilitiesNet"
+                    },
+                    {
+                        "id": 4262,
+                        "name": "BusinessCombinationContingentConsiderationLiabilityNoncurrent"
+                    },
+                    {
+                        "id": 12020,
+                        "name": "LiabilitiesNoncurrent"
+                    },
+                    {
+                        "id": 11999,
+                        "name": "Liabilities"
+                    }, {
+                        "id": 12002,
+                        "name": "LiabilitiesAndStockholdersEquityAbstract"
+                    }, {
+                        "id": 12000,
+                        "name": "LiabilitiesAbstract"
+                    }, {
+                        "id": 12005,
+                        "name": "LiabilitiesCurrentAbstract"
+                    }, {
+                        "id": 3117,
+                        "name": "AccountsPayableAndAccruedLiabilitiesCurrentAbstract"
+                    }, {
+                        "id": 3128,
+                        "name": "AccountsPayableCurrent"
+                    }, {
+                        "id": 12026,
+                        "name": "LiabilitiesOfDisposalGroupIncludingDiscontinuedOperationCurrent"
+                    }, {
+                        "id": 7127,
+                        "name": "DerivativeInstrumentsAndHedgesLiabilitiesAbstract"
+                    }, {
+                        "id": 12004,
+                        "name": "LiabilitiesCurrent"
+                    }
+                ],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11668,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [-1.0, -1.0, -1.0, -1.0]
+                        }
+                    },
+                    "20": {
+                        "v": "",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11670,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [-1.0, -1.0, -1.0, -1.0]
+                        }
+                    }
+                },
+                "filePath": [1010],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1008,
+                "name": "Other assets",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [
+                    {
+                        "id": 18680,
+                        "name": "ShortTermBorrowings"
+                    },
+                    {
+                        "id": 16956,
+                        "name": "RestrictedCashAndCashEquivalentsNoncurrent"
+                    },
+                    {
+                        "id": 12743,
+                        "name": "LongTermInvestmentsAndReceivablesNetAbstract"
+                    },
+                    {
+                        "id": 8215,
+                        "name": "EquityMethodInvestments"
+                    }, {
+                        "id": 14472,
+                        "name": "OtherLongTermInvestments"
+                    }, {
+                        "id": 12740,
+                        "name": "LongTermInvestments"
+                    }, {
+                        "id": 3157,
+                        "name": "AccountsReceivableGrossNoncurrent"
+                    }, {
+                        "id": 7824,
+                        "name": "DueFromRelatedPartiesNoncurrent"
+                    }, {
+                        "id": 10983,
+                        "name": "IntangibleAssetsNetExcludingGoodwillAbstract"
+                    }, {
+                        "id": 9403,
+                        "name": "FiniteLivedIntangibleAssetsNet"
+                    }, {
+                        "id": 5374,
+                        "name": "ContractWithCustomerAssetNetNoncurrent"
+                    }, {
+                        "id": 4442,
+                        "name": "CapitalizedContractCostNetNoncurrent"
+                    }, {
+                        "id": 14077,
+                        "name": "OtherAssetsNoncurrent"
+                    }, {
+                        "id": 7048,
+                        "name": "DerivativeAssetsNoncurrent"
+                    }, {
+                        "id": 16647,
+                        "name": "RegulatedEntityOtherAssetsNoncurrentAbstract"
+                    }, {
+                        "id": 11557,
+                        "name": "InvestmentsAndOtherNoncurrentAssets"
+                    }, {
+                        "id": 6954,
+                        "name": "DepositsAssetsNoncurrent"
+                    }, {
+                        "id": 6271,
+                        "name": "DeferredIncomeTaxAssetsNet"
+                    }, {
+                        "id": 6636,
+                        "name": "DefinedBenefitPlanAssetsForPlanBenefitsNoncurrent"
+                    }, {
+                        "id": 16981,
+                        "name": "RestrictedCashNoncurrent"
+                    }, {
+                        "id": 14590,
+                        "name": "OtherRestrictedAssetsNoncurrent"
+                    }, {
+                        "id": 3832,
+                        "name": "AssetsOfDisposalGroupIncludingDiscontinuedOperationNoncurrentAbstract"
+                    }, {
+                        "id": 7661,
+                        "name": "DisposalGroupIncludingDiscontinuedOperationOtherNoncurrentAssets"
+                    }, {
+                        "id": 7647,
+                        "name": "DisposalGroupIncludingDiscontinuedOperationIntangibleAssetsNoncurrent"
+                    }, {
+                        "id": 7617,
+                        "name": "DisposalGroupIncludingDiscontinuedOperationAssetsNoncurrent"
+                    }, {
+                        "id": 3825,
+                        "name": "AssetsNoncurrent"
+                    }, {
+                        "id": 3771,
+                        "name": "Assets"
+                    }, {
+                        "id": 3334,
+                        "name": "AccumulatedOtherComprehensiveIncomeLossNetOfTax"
+                    }, {
+                        "id": 14069,
+                        "name": "OtherAssetsCurrent"
+                    }, {
+                        "id": 7656,
+                        "name": "DisposalGroupIncludingDiscontinuedOperationOtherCurrentAssets"
+                    }, {
+                        "id": 7646,
+                        "name": "DisposalGroupIncludingDiscontinuedOperationIntangibleAssetsCurrent"
+                    }, {
+                        "id": 9083,
+                        "name": "FinanceLeaseRightOfUseAsset"
+                    }, {
+                        "id": 13953,
+                        "name": "OperatingLeaseRightOfUseAsset"
+                    }, {
+                        "id": 14589,
+                        "name": "OtherRestrictedAssetsCurrent"
+                    }, {
+                        "id": 3826,
+                        "name": "AssetsNoncurrentAbstract"
+                    }, {
+                        "id": 11330,
+                        "name": "InventoryNoncurrent"
+                    }
+                ],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "315,949.8",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11660,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [306.4, 265.9, 354.3, 279.7]
+                        }
+                    },
+                    "20": {
+                        "v": "270,420.5",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11662,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [448.1, 266.3, 496.0, 279.7]
+                        }
+                    }
+                },
+                "filePath": [
+                    1001, 1008
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1009,
+                "name": "Total assets",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [
+                    {
+                        "id": 8256,
+                        "name": "EquitySecuritiesFvNi"
+                    },
+                    {
+                        "id": 10982,
+                        "name": "IntangibleAssetsNetExcludingGoodwill"
+                    },
+                    {
+                        "id": 14077,
+                        "name": "OtherAssetsNoncurrent"
+                    },
+                    {
+                        "id": 7048,
+                        "name": "DerivativeAssetsNoncurrent"
+                    }, {
+                        "id": 16646,
+                        "name": "RegulatedEntityOtherAssetsNoncurrent"
+                    }, {
+                        "id": 11557,
+                        "name": "InvestmentsAndOtherNoncurrentAssets"
+                    }, {
+                        "id": 6636,
+                        "name": "DefinedBenefitPlanAssetsForPlanBenefitsNoncurrent"
+                    }, {
+                        "id": 16964,
+                        "name": "RestrictedCashAndInvestmentsNoncurrent"
+                    }, {
+                        "id": 7617,
+                        "name": "DisposalGroupIncludingDiscontinuedOperationAssetsNoncurrent"
+                    }, {
+                        "id": 3825,
+                        "name": "AssetsNoncurrent"
+                    }, {
+                        "id": 3771,
+                        "name": "Assets"
+                    }, {
+                        "id": 12002,
+                        "name": "LiabilitiesAndStockholdersEquityAbstract"
+                    }, {
+                        "id": 12005,
+                        "name": "LiabilitiesCurrentAbstract"
+                    }, {
+                        "id": 3830,
+                        "name": "AssetsOfDisposalGroupIncludingDiscontinuedOperationCurrent"
+                    }, {
+                        "id": 13953,
+                        "name": "OperatingLeaseRightOfUseAsset"
+                    }, {
+                        "id": 3772,
+                        "name": "AssetsAbstract"
+                    }, {
+                        "id": 7822,
+                        "name": "DueFromRelatedPartiesCurrent"
+                    }, {
+                        "id": 3104,
+                        "name": "AccountsAndOtherReceivablesNetCurrent"
+                    }, {
+                        "id": 3776,
+                        "name": "AssetsCurrent"
+                    }
+                ],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "1,564,279.3",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11664,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [297.3, 296.9, 354.3, 310.7]
+                        }
+                    },
+                    "20": {
+                        "v": "1,518,083.6",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11666,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [439.1, 297.3, 496.1, 310.7]
+                        }
+                    }
+                },
+                "filePath": [
+                    1001, 1009
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1007,
+                "name": "Financial assets at amortized cost",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "183,535.0",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11656,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [306.4, 251.9, 354.3, 265.7]
+                        }
+                    },
+                    "20": {
+                        "v": "220,233.0",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11658,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [448.1, 252.3, 496.0, 265.7]
+                        }
+                    }
+                },
+                "filePath": [
+                    1001, 1007
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1005,
+                "name": "Financial assets at fair value through other comprehensive income",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "122,592.3",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11648,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [306.4, 223.9, 354.3, 237.7]
+                        }
+                    },
+                    "20": {
+                        "v": "123,728.5",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11650,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [448.1, 224.3, 496.0, 237.7]
+                        }
+                    }
+                },
+                "filePath": [
+                    1001, 1005
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1006,
+                "name": "Loans and advances to customers",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "368,031.4",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11652,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [306.4, 237.9, 354.3, 251.7]
+                        }
+                    },
+                    "20": {
+                        "v": "353,456.3",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11654,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [448.1, 238.3, 496.0, 251.7]
+                        }
+                    }
+                },
+                "filePath": [
+                    1001, 1006
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1004,
+                "name": "Financial assets at fair value through profit or loss",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "456,203.8",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11644,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [306.4, 195.9, 354.3, 209.7]
+                        }
+                    },
+                    "20": {
+                        "v": "446,916.7",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11646,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [448.2, 196.3, 496.0, 209.7]
+                        }
+                    }
+                },
+                "filePath": [
+                    1001, 1004
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1002,
+                "name": "Cash and balances with central banks",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "18,045.7",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11636,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [312.4, 153.8, 354.3, 167.7]
+                        }
+                    },
+                    "20": {
+                        "v": "15,375.0",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11638,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [454.2, 154.3, 496.1, 167.7]
+                        }
+                    }
+                },
+                "filePath": [
+                    1001, 1002
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1003,
+                "name": "Deposits with banks and financial institutions",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "99,921.3",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11640,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [312.4, 167.9, 354.3, 181.7]
+                        }
+                    },
+                    "20": {
+                        "v": "87,953.6",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11642,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [454.1, 168.3, 496.0, 181.7]
+                        }
+                    }
+                },
+                "filePath": [
+                    1001, 1003
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1001,
+                "name": "Assets",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [
+                    {
+                        "id": 18808,
+                        "name": "StatementLineItems"
+                    },
+                    {
+                        "id": 9397,
+                        "name": "FiniteLivedIntangibleAssetsGross"
+                    },
+                    {
+                        "id": 6271,
+                        "name": "DeferredIncomeTaxAssetsNet"
+                    },
+                    {
+                        "id": 6636,
+                        "name": "DefinedBenefitPlanAssetsForPlanBenefitsNoncurrent"
+                    }, {
+                        "id": 3832,
+                        "name": "AssetsOfDisposalGroupIncludingDiscontinuedOperationNoncurrentAbstract"
+                    }, {
+                        "id": 3825,
+                        "name": "AssetsNoncurrent"
+                    }, {
+                        "id": 3771,
+                        "name": "Assets"
+                    }, {
+                        "id": 3831,
+                        "name": "AssetsOfDisposalGroupIncludingDiscontinuedOperationCurrentAbstract"
+                    }, {
+                        "id": 3830,
+                        "name": "AssetsOfDisposalGroupIncludingDiscontinuedOperationCurrent"
+                    }, {
+                        "id": 13953,
+                        "name": "OperatingLeaseRightOfUseAsset"
+                    }, {
+                        "id": 3977,
+                        "name": "AvailableForSaleSecuritiesDebtSecuritiesCurrent"
+                    }, {
+                        "id": 18810,
+                        "name": "StatementOfFinancialPositionAbstract"
+                    }, {
+                        "id": 3772,
+                        "name": "AssetsAbstract"
+                    }, {
+                        "id": 3777,
+                        "name": "AssetsCurrentAbstract"
+                    }, {
+                        "id": 16500,
+                        "name": "ReceivablesNetCurrentAbstract"
+                    }, {
+                        "id": 5373,
+                        "name": "ContractWithCustomerAssetNetCurrentAbstract"
+                    }, {
+                        "id": 5372,
+                        "name": "ContractWithCustomerAssetNetCurrent"
+                    }, {
+                        "id": 7125,
+                        "name": "DerivativeInstrumentsAndHedgesAbstract"
+                    }, {
+                        "id": 3776,
+                        "name": "AssetsCurrent"
+                    }, {
+                        "id": 3826,
+                        "name": "AssetsNoncurrentAbstract"
+                    }
+                ],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11632,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [-1.0, -1.0, -1.0, -1.0]
+                        }
+                    },
+                    "20": {
+                        "v": "",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11634,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [-1.0, -1.0, -1.0, -1.0]
+                        }
+                    }
+                },
+                "filePath": [1001],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1022,
+                "name": "Total equity",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [
+                    {
+                        "id": 13144,
+                        "name": "MembersEquity"
+                    },
+                    {
+                        "id": 18862,
+                        "name": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+                    },
+                    {
+                        "id": 18863,
+                        "name": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterestAbstract"
+                    },
+                    {
+                        "id": 18857,
+                        "name": "StockholdersEquity"
+                    }, {
+                        "id": 12334,
+                        "name": "LimitedLiabilityCompanyLlcMembersEquityIncludingPortionAttributableToNoncontrollingInterest"
+                    }, {
+                        "id": 12001,
+                        "name": "LiabilitiesAndStockholdersEquity"
+                    }, {
+                        "id": 14814,
+                        "name": "PartnersCapitalIncludingPortionAttributableToNoncontrollingInterest"
+                    }
+                ],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "201,775.5",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11716,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [306.4, 569.6, 354.3, 583.5]
+                        }
+                    },
+                    "20": {
+                        "v": "195,042.4",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11718,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [448.2, 570.1, 496.1, 583.5]
+                        }
+                    }
+                },
+                "filePath": [
+                    1019, 1022
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1023,
+                "name": "Total equity and liabilities",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [
+                    {
+                        "id": 11999,
+                        "name": "Liabilities"
+                    }, {
+                        "id": 12001,
+                        "name": "LiabilitiesAndStockholdersEquity"
+                    }
+                ],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "1,564,279.3",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11720,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [297.3, 605.0, 354.3, 618.8]
+                        }
+                    },
+                    "20": {
+                        "v": "1,518,083.6",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11722,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [439.1, 605.5, 496.1, 618.8]
+                        }
+                    }
+                },
+                "filePath": [
+                    1019, 1023
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1021,
+                "name": "Non-controlling interests",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [
+                    {
+                        "id": 16598,
+                        "name": "RedeemableNoncontrollingInterestEquityCarryingAmountAbstract"
+                    },
+                    {
+                        "id": 13196,
+                        "name": "MinorityInterest"
+                    },
+                    {
+                        "id": 18862,
+                        "name": "StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+                    },
+                    {
+                        "id": 16597,
+                        "name": "RedeemableNoncontrollingInterestEquityCarryingAmount"
+                    }, {
+                        "id": 19239,
+                        "name": "TemporaryEquityCarryingAmountIncludingPortionAttributableToNoncontrollingInterests"
+                    }, {
+                        "id": 13146,
+                        "name": "MembersEquityAttributableToNoncontrollingInterest"
+                    }, {
+                        "id": 14810,
+                        "name": "PartnersCapitalAttributableToNoncontrollingInterest"
+                    }
+                ],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "22,974.7",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11712,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [312.4, 538.6, 354.3, 552.5]
+                        }
+                    },
+                    "20": {
+                        "v": "22,933.7",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11714,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [454.1, 539.1, 496.0, 552.5]
+                        }
+                    }
+                },
+                "filePath": [
+                    1019, 1021
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }, {
+                "id": 1020,
+                "name": "Equity attributable to equity holders of the Company",
+                "tag": null,
+                "tagId": 0,
+                "sTags": [],
+                "c": "CNY",
+                "q": "Million",
+                "facts": {
+                    "10": {
+                        "v": "178,800.8",
+                        "p": "FY21",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 10,
+                        "id": 11708,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [306.4, 524.6, 354.3, 538.5]
+                        }
+                    },
+                    "20": {
+                        "v": "172,108.7",
+                        "p": "FY20",
+                        "c": "CNY",
+                        "q": "M",
+                        "cid": 20,
+                        "id": 11710,
+                        "a": {
+                            "hid": "",
+                            "pagenumber": 27,
+                            "BB": [448.2, 525.1, 496.1, 538.5]
+                        }
+                    }
+                },
+                "filePath": [
+                    1019, 1020
+                ],
+                "newOrModified": "",
+                "lineItemId": 0,
+                "templateId": 0
+            }
+        ]
+    },
+    "success": true,
+    "message": null,
+    "errorCode": null
+}
